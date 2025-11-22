@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8090";
+const BASE_URL = "https://google-form-builder.onrender.com";
 
 // Submit form response (USER)
 export const submitFormResponse = async (formId, responses) => {
