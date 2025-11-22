@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8090";
+const BASE_URL = "https://google-form-builder.onrender.com";
 
 // Create a new form (ADMIN)
 export const createForm = async (formData, token) => {
