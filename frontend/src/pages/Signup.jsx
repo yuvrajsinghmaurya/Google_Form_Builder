@@ -34,7 +34,7 @@ const Signup = () => {
             }
 
             try {
-                const url = 'http://localhost:8090/auth/signup';
+                const url = 'https://google-form-builder.onrender.com/auth/signup';
                 const response = await fetch(url , {
                     method : "POST",
                     headers : {
